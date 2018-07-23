@@ -12,8 +12,10 @@ Simple CRUD exercise in Node using an internal array instead of database connect
 
 `localhost:3000/`
 Shows the application title "Card Namer Deluxe"
+
 `localhost:3000/api/cards/`
 Displays a list of the cards in the array
+
 `localhost:3000/api/cards/1`
 Displays the first card in the array.  There are three.
 

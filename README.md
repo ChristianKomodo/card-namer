@@ -2,13 +2,14 @@
 
 ### Practice app using NodeJS and Express
 
-Simple CRUD exercise in Node using an internal array instead of database connection.
+Simple CRUD exercise in Node using an internal array instead of database connection.  Uses [Joi](https://www.npmjs.com/package/joi) for basic object schema validation.
 
 1. Clone the repo, and then run `npm install`.
 2. Start the server with `nodemon index.js`.
 3. Navigate to `localhost:3000`
 
-#### Run these exciting commands
+
+#### Run these exciting commands!
 
 `localhost:3000/`
 Shows the application title "Card Namer Deluxe"
@@ -27,5 +28,7 @@ If you use [Postman](https://www.getpostman.com/) to execute a `PUT` with a new 
     "name": "Different Creature Name"
 }
 ```
+
+
 
 Enjoy!
